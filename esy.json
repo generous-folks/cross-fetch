@@ -1,0 +1,27 @@
+{
+  "name": "wonka",
+  "version": "4.0.3",
+  "esy": {
+    "build": "dune build -p #{self.name}"
+  },
+  "peerDependencies": {
+    "ocaml": ">= 4.6.0"
+  },
+  "dependencies": {
+    "@opam/dune": "^1.7.3",
+    "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0",
+    "refmterr": "*",
+    "belt": "jaredly/belt",
+    "fetch-native-lwt": "github:lessp/reason-fetch:fetch-native-lwt.json#f2121c9"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "ocaml": "4.8.1000"
+  },
+  "resolutions": {
+    "@opam/httpaf-lwt-unix": "anmonteiro/httpaf:httpaf-lwt-unix.opam#76b461bed081c64908fb1fdfa076ab2c936ca622",
+    "@opam/httpaf-lwt": "anmonteiro/httpaf:httpaf-lwt.opam#76b461bed081c64908fb1fdfa076ab2c936ca622",
+    "@opam/httpaf": "anmonteiro/httpaf:httpaf.opam#76b461bed081c64908fb1fdfa076ab2c936ca622",
+    "@opam/opium_core": "rgrinberg/opium:opium_core.opam#1767ce612bc69a2ecd569404cb37f4a2c0e93e05"
+  }
+}
