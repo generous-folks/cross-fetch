@@ -1,5 +1,5 @@
 {
-  "name": "cross-fetch",
+  "name": "wonka",
   "version": "4.0.3",
   "esy": {
     "build": "dune build -p #{self.name}"

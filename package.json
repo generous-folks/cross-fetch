@@ -1,5 +1,5 @@
 {
-  "name": "cross-fetch",
+  "name": "wonka",
   "description": "A fast push & pull stream library for Reason/OCaml, Flow, and TypeScript",
   "version": "4.0.7",
   "author": "Pierre Huyghe <pierrehuyghe.pro@gmail.com>",
