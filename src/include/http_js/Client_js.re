@@ -1,4 +1,4 @@
-let fetcher = (~path: string) =>
+let fetch = (~path: string) =>
   Js.Promise.(
     Fetch.fetch(path)
     |> then_(Fetch.Response.text)
