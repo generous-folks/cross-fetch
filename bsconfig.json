@@ -1,5 +1,5 @@
 {
-  "name": "wonka",
+  "name": "fido",
   "version": "3.1.0",
   "namespace": false,
   "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
@@ -26,9 +26,6 @@
           "dir": "shims"
         },
         {
-          "dir": "helpers"
-        },
-        {
           "dir": "web",
           "backend": ["js"]
         },
@@ -36,7 +33,7 @@
           "dir": "include",
           "subdirs": [
             {
-              "dir": "rebel_js",
+              "dir": "http_js",
               "backend": ["js"]
             }
           ]

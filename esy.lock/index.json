@@ -1,6 +1,6 @@
 {
   "checksum": "0f29fc2742ed4de36dfef6baf58ed60c",
-  "root": "wonka@link-dev:./esy.json",
+  "root": "fido@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#cca65f99674ed2d954d28788edeb8c57fada5ed0@d41d8cd9": {
       "id":
@@ -18,9 +18,9 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "wonka@link-dev:./esy.json": {
-      "id": "wonka@link-dev:./esy.json",
-      "name": "wonka",
+    "fido@link-dev:./esy.json": {
+      "id": "fido@link-dev:./esy.json",
+      "name": "fido",
       "version": "link-dev:./esy.json",
       "source": { "type": "link-dev", "path": ".", "manifest": "esy.json" },
       "overrides": [],

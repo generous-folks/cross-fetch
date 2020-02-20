@@ -30,8 +30,8 @@ const genEntry = async () => {
 
   entry = entry.replace(/.\/dist\//g, './');
 
-  const outputCJS = path.resolve(cwd, 'dist/wonka.js.flow');
-  const outputES = path.resolve(cwd, 'dist/wonka.es.js.flow');
+  const outputCJS = path.resolve(cwd, 'dist/fido.js.flow');
+  const outputES = path.resolve(cwd, 'dist/fido.es.js.flow');
 
   return Promise.all([
     writeFile(outputCJS, entry, { encoding: 'utf8' }),
