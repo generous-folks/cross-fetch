@@ -1,5 +1,5 @@
 {
-  "name": "refido",
+  "name": "cross-fetch",
   "version": "3.1.0",
   "namespace": false,
   "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
