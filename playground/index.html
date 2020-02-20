@@ -8,7 +8,8 @@
     <h1>Cross fetch</h1>
     <script type="text/javascript" src="../dist/fido.js"></script>
     <script type="text/javascript">
-      getCaca('https://cors-anywhere.herokuapp.com/').then(res => console.log(res)).catch(err => console.error(err));
+      requestGet('https://cors-anywhere.herokuapp.com/').then(res => console.log(res)).catch(err => console.error(err));
+      fetch('https://cors-anywhere.herokuapp.com/').then(res => console.log(res)).catch(err => console.error(err));
     </script>
   </body>
 </html>

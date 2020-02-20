@@ -37,7 +37,7 @@
     "clean": "run-s bs:clean bundle:clean",
     "build": "run-s bs:build bundle flowgen",
     "prepublishOnly": "run-s clean build check test",
-    "cross-build": "esy build && yarn build && yarn bundle"
+    "build:all": "yarn clean && esy build && yarn build && yarn bundle"
   },
   "keywords": [
     "fido",
