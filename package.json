@@ -49,11 +49,6 @@
     "iterable",
     "stream"
   ],
-  "repository": "https://github.com/kitten/wonka",
-  "homepage": "https://wonka.kitten.sh",
-  "bugs": {
-    "url": "https://github.com/kitten/wonka/issues"
-  },
   "license": "MIT",
   "dependencies": {
     "bs-fetch": "^0.5.1"
@@ -78,9 +73,6 @@
     "coveralls": "^3.0.9",
     "flow-bin": "^0.115.0",
     "flowgen": "^1.10.0",
-    "gatsby": "^2.18.17",
-    "gatsby-plugin-netlify": "^2.1.30",
-    "gatsby-theme-docs-system": "^0.2.2",
     "gentype": "^3.9.1",
     "globby": "^10.0.1",
     "husky": "^3.1.0",

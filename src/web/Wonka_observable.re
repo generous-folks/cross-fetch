@@ -1,8 +1,6 @@
 open Wonka_types;
 open Wonka_helpers;
 
-let getCaca = (~path: string) => Rebel.Fetcher.fetcher("www.google.com");
-
 let observableSymbol: string = [%raw
   {|
   typeof Symbol === 'function'

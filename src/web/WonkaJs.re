@@ -1,5 +1,7 @@
 open Wonka_types;
 
+let getCaca = (~path: string) => Rebel.Fetcher.fetcher(path);
+
 [@genType]
 let fromObservable = Wonka_observable.fromObservable;
 [@genType]
