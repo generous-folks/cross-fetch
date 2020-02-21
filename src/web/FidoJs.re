@@ -1,4 +1,4 @@
-// open Fido_types;
+open Fido_types;
 
 [@genType]
-let requestGet = Http.Client.fetch;
+let getGeoService = Http.Client.get("https://geo.6play.fr/v1/geoInfo/");
