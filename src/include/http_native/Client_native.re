@@ -1,4 +1,4 @@
-let fetch = (~path: string) =>
+let get = (path: string, ()) =>
   Fetch.(
     fetch(path)
     |> Lwt.map(
